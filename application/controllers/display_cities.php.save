@@ -1,0 +1,27 @@
+<?php if(!defined('BASEPATH')) exit('No direct script access allowed');
+class Display_cities extends CI_Controller
+{
+public function __construct()
+{
+parent:: __construct();
+$this->load->helper('url');
+}
+public function display_firstpage()
+{
+$data=array();
+$this->load->model('populatecities');
+//$data['query'] = $this->populatecities->retrievecities;
+//$this->load->model('pc_model');
+$data['query2'] = $this->populatecities->retrievecities();
+$this->load->view('FirstPage.php',$data);
+}
+public function storecities()
+{
+$realvalues=$this->input->post('realvalues');
+if(is_array($realvalues))
+{
+foreach($realvalu
+}
+}
+}
+?>

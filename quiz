@@ -1,0 +1,52 @@
+                                        General web engineering skill test
+
+General
+1. I have used HTML and CSS:Design and building websites by jon Duckett. It is one book that never goes wrong and is very easy to remember. Also, I have started reading ‘Head First Design Patterns’ which really appeals to the UX designer in me.
+There are 2 blogs that I follow. First one is david walsh blog.  That blog always has some new article about javascript or sass or some best practices to follow in CSS. I really enjoy reading it. Second one that I follow is webappers. One thing that I like about webappers is that it caters to both my web developer insight as well as my UX Designer insight. Also, it has a lot of articles about mobile apps and mobile UI.
+JQuery Mobile is one OSS that I am completely in love with. The ease of using and the fact that it makes all the small tasks so easy to build is what I find most amazing. Less CSS is one more project that I like. Less CSS mixes variables,operations and functions into the CSS itself so with Less CSS, our stylesheets are not just going to be static code containing fonts, colors etc. So now we can choose the color once, put it in the variable and reuse it again and again. Another OSS idea that I liked is GeoServers. GeoServer is a database for storing geographical data and presents data in a way that the mapping layer can easily understand.
+
+2. I use tabs because they use less space for indentations. It highly depends on situations like whether you can minify the code or GZip the code. If you cannot do both, then tabs are perfect.
+3. I have been using eclipse as my IDE. I have just now started using sublime text for a project that I am developing using rails and I am really liking it so I guess I am going to be shifting to that. On Linux, I use nano too.
+4. I have used LAMP for developing an eCommerce website. So yes, I am.
+5. I developed the eCommerce website using CodeIgniter which is an MVC framework. And I am very comfortable with it.
+
+
+HTML/CSS/JS
+1. Some new features added in HTML5 like <audio>, <video> tags which allow users to open the video without installing any third party software on their browsers is pretty cool. <canvas> and <svg> tags that define graphic drawings using javascript is my favorite feature.
+    Actually form old HTML standards the most important improvement made in HTML5 is that HTML5 does not only define tags, it also defines how those tags interact with javascript, through the DOM.  Also some form elements like <header>, <footer>, <nav>,<article> etc. define the HTML5 document structure better than using only <div> tags in HTML.
+2. I love jquery and I have been using it on almost all of my web related projects a lot. 
+3. I usually use CSS-tricks.com and MDN (Mozilla developer network)
+4. CDN are content delivery networks. It displays web content to the user based on the geographic location of the users. So, for instance, if the location of the CDN server is near to the geographical location of the user, the content will be displayed faster to that user. 
+5. Don’t know what a beacon pixel is.
+
+PHP
+1. In PHP5 everything is passed by reference, whereas in PHP4, everything was passed by value. So in PHP4, to duplicate an object, you had to copy it and assign a new value to it. Whereas, in PHP5, the code can use the clone.  Also, PHP5 includes visibility of methods (public, protected, private) and interfaces which can be defined in classes. Also prepared statements are a very good interface added in PHP5 to interact with the database. Although I have not used PDO yet in any of my projects  yet.
+2. Don’t know.
+3. Phpinfo(INFO_MODULES). To get a list of modules php –m is used for getting list of modules.
+Not sure about how to add or remove modules.
+4. FirePHP
+5. Since my projects have all been class projects, I have never used a dependency manager.
+6. I feel that for small scale projects, procedural programming in PHP is better than OOP PHP. However, I have used OOP PHP and I think it makes understanding and maintenance of code easier. Also, it increases code reuse. My favorite pattern is MVC pattern since it provides the abstraction of presentation, business and database layer and code maintenance is decreased manifold.
+
+PHP CODE
+1. This warning usually comes in PHP scripts when user is trying to send header information after outputting the content.
+2. <?php
+$var;  //a variable declared but without a value
+If(empty($var))
+{
+Echo “$var is 0 or empty or not set”;
+}
+?>
+
+3. It is pass by reference so any changes made in the value of the variable by the function will change the variable.
+4. I have not used strops function. However, from what I remember, I guess strops returns a Boolean equivalent of false so we cannot keep it in an ‘if’ statement.
+5. In SQL injection, sql statements are inserted into the text fields. CodeIgniter used active records to handle SQL Injection which is a pretty solid way of handling SQL Injections. Another way of handling SQL injection is to pass ‘?’ in the query while inserting records in database. Prepared statements are also used for avoiding sql injection.
+
+
+GIT
+ Git pull is used to bring the repository up to date.
+Git fetch is used to fetch from single named repository.
+
+
+	
+
