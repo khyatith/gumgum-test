@@ -20,7 +20,7 @@ Views: Visualization_view.php
 I have displayed the x-axis as year and the column in the chart represents the percentage change in the data over the years. Also, the annotations are used for displaying the inital values taken from the xml document.
 
 FizzBuzz
-fizzbuzz.php.
+a separate file fizzbuzz.php containing a small modulus code is the final code. Somehow I cannot delete the other file which says gumgum-test on it. 
 Unfortunately, exam prep and working on other project did not permit me to write the unit test for the fizzbuzz. However, I can give an explanation of how to create the unit test for the same if it is necessary.
 
 I really enjoyed working with google weather and visualization API. Looking forward to working on cool stuff like this in gumgum ! 
